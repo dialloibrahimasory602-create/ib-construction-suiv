@@ -1,0 +1,17 @@
+IB CONSTRUCTION — SUIVI DE CHANTIER
+
+Ce dossier contient une application web progressive (PWA) de démonstration :
+- 4 formulaires de suivi de chantier
+- stockage local des rapports et photos sur l'appareil
+- export CSV et sauvegarde/restauration JSON
+- cache hors connexion après première visite
+
+IMPORTANT : Pour l'installer comme application sur Android, ces fichiers doivent être publiés sur un hébergement HTTPS. Ouvrir index.html directement depuis le téléphone ne suffit généralement pas pour activer l'installation et le mode hors connexion.
+
+Étapes après hébergement HTTPS :
+1. Ouvrir l'adresse HTTPS dans Chrome sur Android.
+2. Appuyer sur le menu ⋮.
+3. Choisir « Installer l'application » ou « Ajouter à l'écran d'accueil ».
+4. Confirmer.
+
+Les données restent sur le navigateur de cet appareil. Exportez régulièrement les sauvegardes. Il n'y a pas de synchronisation entre plusieurs téléphones ni de connexion utilisateur dans cette version.
